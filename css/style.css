@@ -8346,7 +8346,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     height: 700px;
     z-index: 0; }
-    .owl-carousel.home-slider .slider-item {
+  .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top center;
@@ -8354,9 +8354,9 @@ h1, h2, h3, h4, h5,
       position: relative;
       z-index: 0; }
       @media (max-width: 1199.98px) {
-        .owl-carousel.home-slider .slider-item {
+        .slider-item {
           background-position: center center !important; } }
-      .owl-carousel.home-slider .slider-item .overlay {
+ .slider-item .overlay {
         position: absolute;
         top: 0;
         bottom: 0;
@@ -8365,46 +8365,46 @@ h1, h2, h3, h4, h5,
         background: #fff;
         opacity: .4; }
         @media (min-width: 768px) {
-          .owl-carousel.home-slider .slider-item .overlay {
+       .slider-item .overlay {
             width: 50%; } }
-      .owl-carousel.home-slider .slider-item .slider-text {
+     .slider-item .slider-text {
         height: 700px; }
         @media (max-width: 767.98px) {
-          .owl-carousel.home-slider .slider-item .slider-text {
+         .slider-item .slider-text {
             text-align: center; } }
-        .owl-carousel.home-slider .slider-item .slider-text .subheading {
+      .slider-item .slider-text .subheading {
           color: #000000;
           font-weight: 700; }
-        .owl-carousel.home-slider .slider-item .slider-text .text {
+        .slider-item .slider-text .text {
           position: relative; }
-        .owl-carousel.home-slider .slider-item .slider-text h1 {
+.slider-item .slider-text h1 {
           font-size: 49px;
           color: #fda729;
           line-height: 1.3;
           font-weight: 900;
           text-transform: uppercase; }
-          .owl-carousel.home-slider .slider-item .slider-text h1 span {
+      .slider-item .slider-text h1 span {
             display: block;
             color: #000000; }
           @media (max-width: 991.98px) {
-            .owl-carousel.home-slider .slider-item .slider-text h1 {
+          .slider-item .slider-text h1 {
               font-size: 30px; } }
-        .owl-carousel.home-slider .slider-item .slider-text .subheading {
+      .slider-item .slider-text .subheading {
           font-size: 18px;
           font-weight: 400;
           color: rgba(0, 0, 0, 0.8); }
-        .owl-carousel.home-slider .slider-item .slider-text p {
+    .slider-item .slider-text p {
           font-size: 18px;
           line-height: 1.5;
           font-weight: 300;
           color: rgba(0, 0, 0, 0.8); }
-        .owl-carousel.home-slider .slider-item .slider-text .breadcrumbs {
+      .slider-item .slider-text .breadcrumbs {
           text-transform: uppercase;
           font-size: 13px;
           letter-spacing: 1px; }
-          .owl-carousel.home-slider .slider-item .slider-text .breadcrumbs span {
+       .slider-item .slider-text .breadcrumbs span {
             border-bottom: 2px solid rgba(255, 255, 255, 0.1); }
-            .owl-carousel.home-slider .slider-item .slider-text .breadcrumbs span a {
+           .slider-item .slider-text .breadcrumbs span a {
               color: #fff; }
     .owl-carousel.home-slider .owl-nav {
       position: absolute;
@@ -8708,8 +8708,8 @@ h1, h2, h3, h4, h5,
 
 @media (max-width: 767.98px) {
   .services-flow {
-    margin-bottom: 4em; } }
-
+    margin-bottom: 4em; 
+  margin:4em} }
 .services-2 {
   width: 100%; }
   .services-2 h3 {
@@ -9986,4 +9986,7 @@ textarea.form-control {
     cursor: pointer;
     color:orangered;
    }
-   
+   .subheading{
+     
+   }
+  
